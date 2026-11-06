@@ -25,6 +25,3 @@ If the password is missing anything, it also lists what to add to make it strong
 ## Run it
 From the project folder:
 python3 password_checker.py
-
-## Looking back
-*Note (November 2026): I came back to this almost a year after I first made it — one of my earliest Python projects — just to tidy it up and add a couple of things (a lowercase check, some feedback, and a bug fix). I still really enjoy picking up old projects and working on them again.*
