@@ -3,6 +3,7 @@
 A simple Python script that rates the strength of a password based on rules:
 - Minimum length
 - Uppercase letters
+- Lowercase letters
 - Numbers
 - Special characters
 
@@ -12,12 +13,18 @@ This is one of my first Linux + Python projects, built on Ubuntu and tracked wit
 The script checks if the password includes:
 - 8+ characters
 - at least 1 uppercase letter (A–Z)
+- at least 1 lowercase letter (a–z)
 - at least 1 number (0–9)
-- at least 1 special character (!@#$%^&*)
+- at least 1 special character (!£$%^&*()?;)
 
 It then outputs a strength rating based on how many of these features it has:
 **Very Weak / Weak / Okay / Strong / Very Strong**
 
+If the password is missing anything, it also lists what to add to make it stronger.
+
 ## Run it
 From the project folder:
 python3 password_checker.py
+
+## Looking back
+*Note (November 2026): I came back to this almost a year after I first made it — one of my earliest Python projects — just to tidy it up and add a couple of things (a lowercase check, some feedback, and a bug fix). I still really enjoy picking up old projects and working on them again.*
